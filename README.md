@@ -25,7 +25,7 @@ const domainchainjs = require('domainchainjs');
 
 Install:
 
-Chain Supported: elastos, fusion, iotex, fuse etc
+Chain Supported: elastos, fusion, iotex etc
 
 ```
 const sdk = domainjs.SDK('fusion');
