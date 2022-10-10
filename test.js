@@ -39,7 +39,15 @@ async function callElastos(){
 async function callFusion(){
 	
 	// install
-	const sdk = domainchainjs.SDK('Fusion');
+	
+	const custom = 
+	{
+		rpcUrl: "https://mainnet.fusionnetwork.io/",
+		contractAddress: "0xa1019535e6b364523949eaf45f4b17521c1cb074",
+		
+	}
+	// install
+	const sdk = domainchainjs.SDK('custom', custom);
 
 	// change your domains
 	const _domain = "fusion.fsn";

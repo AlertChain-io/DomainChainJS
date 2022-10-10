@@ -25,11 +25,21 @@ const domainchainjs = require('domainchainjs');
 
 Install:
 
-Chain Supported: elastos, fusion, iotex etc
+Chain Supported: elastos, fusion, iotex, fuse etc
 
 ```
+const custom = 
+{
+		rpcUrl: "https://mainnet.fusionnetwork.io/",
+		contractAddress: "0xa1019535e6b364523949eaf45f4b17521c1cb074",
+		
+}
+
+//const sdk = domainchainjs.SDK('custom', custom);
+	
 const sdk = domainjs.SDK('fusion');
 ```
+
 ```
 // your domains
 const _domain = "fusion.fsn";

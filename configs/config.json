@@ -15,7 +15,7 @@
 				"name": "Fusion Web3 Domains",
 				"symbol": "FWD",
 				"tlds": ["fsn","chng","free"],
-				"rpcUrl": "https://mainnet.anyswap.exchange",
+				"rpcUrl": "https://mainnet.fusionnetwork.io/",
 				"contractAddress": "0xa1019535e6b364523949eaf45f4b17521c1cb074",
 				"blockExplorerUrl": "https://fsnscan.com/"
 			},
@@ -45,6 +45,15 @@
 				"rpcUrl": "https://rpc.api.moonbeam.network/",
 				"contractAddress": "0x819B997a2f711eC1Ee998cB2DF5a6B2c4be1B575",
 				"blockExplorerUrl": "https://moonscan.io/"
+			},
+			{
+				"chain": "moonriver",
+				"name": "Moon Web3 Identity",
+				"symbol": "MOONDID",
+				"tlds": ["moon","movr"],
+				"rpcUrl": "https://rpc.api.moonriver.moonbeam.network",
+				"contractAddress": "0xa1019535e6b364523949eaf45f4b17521c1cb074",
+				"blockExplorerUrl": "https://moonriver.moonscan.io/"
 			}
 		],
 		"defaultNetwork": ""
