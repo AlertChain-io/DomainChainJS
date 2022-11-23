@@ -28,7 +28,7 @@ Install:
 Chain Supported: astar, moonbeam, moonriver
 
 ```
-// for astar domains
+// for astar domains astr.domains
 const astar = 
 {
 		rpcUrl: "https://rpc.astar.network:8545",
@@ -36,6 +36,7 @@ const astar =
 		
 }
 
+// for moonid moons.money
 const moonbeam = 
 {
 	"rpcUrl": "https://rpc.api.moonbeam.network/",
